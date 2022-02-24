@@ -10,3 +10,5 @@ app.get('/', (req, res) => {
     return res.send("Welcome to Amazon Scrapper API")
 })
 
+app.listen(PORT, () => { console.log(`Server running on port ${PORT}`)})
+
